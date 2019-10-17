@@ -11,7 +11,7 @@ function App() {
   }
   return (
     <div className="App">
-      <h1>My Notes</h1>
+      <h1>Team List</h1>
       <TeamForm addNewTeamMember={addNewTeamMember} />
       <TeamCard teamList={teamList} />
     </div>

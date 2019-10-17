@@ -19,7 +19,7 @@ const TeamForm = props => {
 
     return (
         <form onSubmit={submitForm}>
-            <label htmlFor="fullName">Name:  </label>
+            <label htmlFor="fullName"> Name:  </label>
             <input
                 name="fullName"
                 id="fullName"
@@ -28,7 +28,7 @@ const TeamForm = props => {
                 onChange={addMember}
                 value={teamList.fullName}
             />
-            <label htmlFor="email">E-mail:  </label>
+            <label htmlFor="email"> E-mail:  </label>
             <input
                 name="email"
                 id="email"
@@ -37,7 +37,7 @@ const TeamForm = props => {
                 onChange={addMember}
                 value={teamList.email}
             />
-            <label htmlFor="role">Job Title:  </label>
+            <label htmlFor="role">  Job Title:  </label>
             <input
                 name="role"
                 id="role"
